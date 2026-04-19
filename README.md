@@ -2,7 +2,7 @@
 
 Forward any Vercel domain to any URL using a single environment variable.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/krutikkkkkkkkk/vercel-domains-redirect)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/krutikkkkkkkkk/vercel-domains-redirect&env=REDIRECT_URL&envDescription=The%20URL%20to%20forward%20your%20domain%20to%20(e.g.%20https%3A%2F%2Fexample.com))
 
 ## How it works
 
