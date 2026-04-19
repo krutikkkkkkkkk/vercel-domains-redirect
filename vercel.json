@@ -1,15 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "$REDIRECT_URL",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "destination": "$REDIRECT_URL/$1",
-      "permanent": true
-    }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
   ]
 }
